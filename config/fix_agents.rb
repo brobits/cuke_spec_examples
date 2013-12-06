@@ -1,7 +1,7 @@
 AgentFIX.session_defaults.merge!(
     BeginString: "FIX.4.2",
     SocketConnectHost: "localhost",
-    DataDictionary: "etc/FIX42.xml"
+    DataDictionary: "features/support/FIX42.xml"
 )
 
 AgentFIX.define_acceptor :fixHost do |a|
