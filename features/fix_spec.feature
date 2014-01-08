@@ -1,10 +1,11 @@
+﻿@with_data_dictionary
 Feature: Building Fix Messages
 
 @ignore_length_and_checksum
 Scenario: Building via raw fix
 Given the following unvalidated fix message: 
 """
-8=FIX.4.235=849=ITG56=SILO205=4315=86=100.25410=50.25424=23.45411=Y43=N40=15=N
+8=FIX.4.235=849=ITG56=SILO205=4315=86=100.25410=50.25424=23.45411=Y43=N40=15=N
 """
 When I get the fix message
 
